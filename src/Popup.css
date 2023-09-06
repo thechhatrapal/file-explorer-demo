@@ -1,0 +1,14 @@
+button {
+    color: black;
+    background-color: transparent;
+    border: none;
+    margin: "10px"
+}
+
+.content {
+    position: absolute;
+    left: 75px;
+    background: #fff;
+    width: 300px;
+    top: -14px;
+}
