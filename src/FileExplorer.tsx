@@ -41,7 +41,7 @@ export const FileExplorer = ({ files }: FileExplorer) => {
           <div onClick={() => setExpanded(!expanded)}>{files.name}📂</div>
           <div
             className="expanded"
-            style={{ display: expanded ? "block" : "none" }}
+            style={{ display: expanded ? "block" : "gt" }}
           >
             {files.data.map((file: Folder) => {
               if (file.type === "file")
